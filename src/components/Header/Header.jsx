@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -66,38 +67,76 @@ const Header = () => {
           variants={listItemVariants}
           className="hover:text-gray-300 cursor-pointer"
         >
-          About
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About
+          </Link>
         </motion.li>
         <motion.li
           variants={listItemVariants}
           className="hover:text-gray-300 cursor-pointer"
         >
-          Education
+          <Link
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Education
+          </Link>
         </motion.li>
         <motion.li
           variants={listItemVariants}
           className="hover:text-gray-300 cursor-pointer"
         >
-          Works
+          <Link
+            activeClass="active"
+            to="works"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Works
+          </Link>
         </motion.li>
         <motion.li
           variants={listItemVariants}
           className="hover:text-gray-300 cursor-pointer"
         >
-          Contact me
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact me
+          </Link>
         </motion.li>
       </motion.ul>
 
       {/* Download Button */}
       <div className="hidden md:block">
-        <motion.button
+        <motion.a
+          href="https://drive.google.com/file/d/1vqWcoVJryhWkbRG0EpWCDZq74O6h_HJx/view?usp=drive_link" // Replace with the actual path to your CV file
+          download="Nadun_Diishan_CV.pdf" // Suggests a filename when downloaded
           variants={listItemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="bg-white text-black font-semibold rounded-lg px-4 py-2 text-sm"
         >
           Download CV
-        </motion.button>
+        </motion.a>
       </div>
     </motion.header>
   );

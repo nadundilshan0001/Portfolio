@@ -1,18 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import {
-  FaGraduationCap,
-  FaUniversity,
-  FaCertificate,
-  FaPython,
-} from "react-icons/fa";
+import { FaUniversity, FaCertificate, FaPython } from "react-icons/fa";
 
 const Education = () => {
   const [inView, setInView] = useState(false);
 
   useEffect(() => {
-    // Create an IntersectionObserver instance
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -22,18 +16,16 @@ const Education = () => {
       { threshold: 0.1 } // Trigger when 10% of the element is in view
     );
 
-    // Target the current element to observe
     const element = document.getElementById("education-section");
     if (element) observer.observe(element);
 
-    // Cleanup the observer on component unmount
     return () => {
       if (element) observer.unobserve(element);
     };
   }, []);
 
   return (
-    <section id="education-section" className="md:py-32 my-10">
+    <section id="education-section" className="md:py-20 my-10">
       <div className="max-w-screen-xl mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}

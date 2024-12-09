@@ -28,6 +28,7 @@ const About = () => {
       className="flex-col-reverse flex justify-center px-10 gap-10 bg-black text-white  md:flex-row md:px-40"
       initial="hidden"
       animate="visible"
+      id="about"
     >
       <motion.div
         className="flex flex-col justify-center pt-10 flex-1  md:text-left md:pr-10"

@@ -15,7 +15,7 @@ const Work = () => {
   };
 
   return (
-    <section id="work" className="my-10">
+    <section id="works" className="my-10">
       <div className="max-w-screen-xl mx-auto px-4">
         <motion.div
           initial="hidden"
