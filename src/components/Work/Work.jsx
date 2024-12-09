@@ -25,10 +25,10 @@ const Work = () => {
           variants={fadeInVariant}
           className="mb-10"
         >
-          <h2 className="text-3xl font-bold text-center mb-8 border-b-2 border-red-500 inline-block">
+          <h2 className="text-3xl font-bold text-center mb-4 border-b-2 border-red-500 inline-block">
             My Works
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-lg text-gray-600">
             Here are some of my selected works I have done lately. Feel free to
             check them out.
           </p>

@@ -84,7 +84,7 @@ const Header = () => {
         >
           <Link
             activeClass="active"
-            to="education"
+            to="education-section"
             spy={true}
             smooth={true}
             offset={50}

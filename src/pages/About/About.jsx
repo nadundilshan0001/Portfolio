@@ -39,10 +39,11 @@ const About = () => {
             Hi, Iʼm Nadun Dilshan.
           </h1>
           <p className="text-lg mt-5 md:text-lg">
-            Iʼm a web developer with experience in building web applications
-            using React, Next.js, and Tailwind CSS. Iʼm passionate about
-            learning new technologies and building projects that solve
-            real-world problems.
+            I am a passionate Full-Stack Developer with experience in building
+            web applications using the MERN stack, Next.js, and other modern
+            technologies. Proficient in multiple programming languages and
+            skilled in version control, I thrive on learning new technologies
+            and solving real-world challenges through innovative solutions.
           </p>
           <div className="flex justify-between w-64 gap-2 md:mt-32 my-10">
             <h1 className=" text-slate-700  relative text-sm flex-1 after:ml-2 after:absolute after:top-1/2 after:bg-red-500 after:w-24 after:h-0.5">

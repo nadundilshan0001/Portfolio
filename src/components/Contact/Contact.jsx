@@ -106,7 +106,7 @@ const Contact = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             variants={fadeInVariant}
             className="mt-10 text-sm text-gray-500"
           >
