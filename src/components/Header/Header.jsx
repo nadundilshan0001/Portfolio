@@ -128,8 +128,8 @@ const Header = () => {
       {/* Download Button */}
       <div className="hidden md:block">
         <motion.a
-          href="https://drive.google.com/file/d/1vqWcoVJryhWkbRG0EpWCDZq74O6h_HJx/view?usp=drive_link" // Replace with the actual path to your CV file
-          download="Nadun_Diishan_CV.pdf" // Suggests a filename when downloaded
+          href="https://drive.google.com/file/d/1640sf8fqYW0H0D1xooD0l0jkXqm6Yxbg/view?usp=drive_link"
+          download="Nadun_Diishan_CV.pdf"
           variants={listItemVariants}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
