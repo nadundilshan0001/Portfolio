@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className="flex items-center justify-between w-full py-5 px-5 bg-black text-white "
+      className="flex items-center justify-between w-full py-5 px-5 bg-black text-white"
       initial="hidden"
       animate="visible"
     >
