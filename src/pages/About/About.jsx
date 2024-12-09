@@ -36,7 +36,7 @@ const About = () => {
       >
         <div className="text-start flex flex-col">
           <h1 className="text-7xl font-bold py-5  md:text-7xl text-red-500">
-            Hi, I'm Nadun Dilshan.
+            Hi, I"m Nadun Dilshan.
           </h1>
           <p className="text-lg mt-5 md:text-lg">
             I'm a web developer with experience in building web applications
