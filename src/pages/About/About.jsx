@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import MyImage from "../../../public/Images/Profile.png";
+import MyImage from "../../../public/Images/Profile.webp";
 
 const About = () => {
   // Animation variants
