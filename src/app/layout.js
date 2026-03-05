@@ -3,16 +3,26 @@ import "./globals.css";
 import About from "@/pages/About/About";
 import Contact from "@/components/Contact/Contact";
 import Technology from "@/components/Technology/Technology";
+import CursorGlow from "@/components/CursorGlow/CursorGlow";
+
+export const metadata = {
+  title: "Nadun Dilshan - Full-Stack Developer",
+  description:
+    "Portfolio of Nadun Dilshan - A passionate Full-Stack Developer specializing in MERN stack, Next.js, and modern web technologies.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="antialiased">
+        <CursorGlow />
         <Header />
-
-        <About />
-        {children}
-        <Technology />
-        <Contact />
+        <main className="relative">
+          <About />
+          {children}
+          <Technology />
+          <Contact />
+        </main>
       </body>
     </html>
   );
