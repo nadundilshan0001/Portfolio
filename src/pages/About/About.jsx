@@ -107,7 +107,7 @@ const About = () => {
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           variants={textVariants}
         >
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <span className="gradient-text animate-gradient">Nadun Dilshan</span>
         </motion.h1>
 
