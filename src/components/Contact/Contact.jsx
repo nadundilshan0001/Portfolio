@@ -192,8 +192,8 @@ const Contact = () => {
               Ready to Start a Project?
             </motion.h3>
             <p className="text-slate-400 mb-8 max-w-xl mx-auto">
-              Let&apos;s work together to bring your ideas to life with modern web
-              solutions
+              Let&apos;s work together to bring your ideas to life with modern
+              web solutions
             </p>
             <motion.a
               href="mailto:nadundilshanuni01@gmail.com"
