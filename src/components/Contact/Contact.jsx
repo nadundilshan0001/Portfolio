@@ -99,7 +99,7 @@ const Contact = () => {
           >
             <BiMessageDetail className="text-purple-400" />
             <span className="text-sm font-medium text-slate-300">
-              Let&apos;s Connect
+              Let's Connect
             </span>
           </motion.div>
 
@@ -107,7 +107,7 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            I&apos;m always open to discussing new projects, creative ideas, or
+            I'm always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision.
           </p>
         </motion.div>
@@ -192,7 +192,7 @@ const Contact = () => {
               Ready to Start a Project?
             </motion.h3>
             <p className="text-slate-400 mb-8 max-w-xl mx-auto">
-              Let&apos;s work together to bring your ideas to life with modern web
+              Let's work together to bring your ideas to life with modern web
               solutions
             </p>
             <motion.a
