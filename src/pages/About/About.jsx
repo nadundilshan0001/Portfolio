@@ -229,20 +229,6 @@ const About = () => {
           >
             <span className="text-3xl">💻</span>
           </motion.div>
-
-          <motion.div
-            className="absolute -bottom-5 -left-5 glass p-4 rounded-2xl backdrop-blur-xl"
-            animate={{
-              y: [0, 10, 0],
-            }}
-            transition={{
-              duration: 4,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          >
-            <span className="text-3xl">🚀</span>
-          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>
